@@ -31,22 +31,22 @@
 
 - Программа поддерживает:
 
-Команду `test` для тестирования корректности работы программы.
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=app.py+test)](https://git.io/typing-svg)
+1. Команду `test` для тестирования корректности работы программы.
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=~+app.py+test)](https://git.io/typing-svg)
 
 
-Команду `list` с аргументами `builds` и `tasks` для просмотра имен загруженных билдов и задач соответственно.
+2. Команду `list` с аргументами `builds` и `tasks` для просмотра имен загруженных билдов и задач соответственно.
 
-Примеры:
+**Примеры:**
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=app.py+list+builds)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=~+app.py+list+builds)](https://git.io/typing-svg)
 ```
 app.py list builds
 List of available builds:
  * test_game
  * pack_game
 ```
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=app.py+list+tasks)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=~+app.py+list+tasks)](https://git.io/typing-svg)
 ```
 app.py list tasks
 List of available tasks:
@@ -54,18 +54,18 @@ List of available tasks:
  * compile_shaders
  * pack_build
 ```
-Команду get с аргументами `build` <build_name> и `task` <task_name> для получения детальной информации.
+3. Команду get с аргументами `build` <build_name> и `task` <task_name> для получения детальной информации.
 
-Примеры:
+**Примеры:**
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=app.py+get+task+pack_build)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=~+app.py+get+task+pack_build)](https://git.io/typing-svg)
 ```
 app.py get task pack_build
 Task info:
  * name: pack_build
  * dependencies: compile_exe, compile_shaders
 ```
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=app.py+get+build+pack_game)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=~+app.py+get+build+pack_game)](https://git.io/typing-svg)
 ```
 app.py get build pack_game
 Build info:
