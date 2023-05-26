@@ -1,7 +1,5 @@
 from docopt  import docopt
-from pprint import pprint
 from progress.bar import ShadyBar
-import random
 
 from file_service import FileService
 
@@ -20,32 +18,8 @@ Usage:
 
     # Формируем команду test для проверки работоспособности утилиты
     if args['test']:
-        with ShadyBar('Tests complite:', max=6) as bar:
-            build_task_list = ['build', 'task']
-            for item in build_task_list:
-                service = FileService(f'data/{item}s.yaml')
-                try:
-                    service._FileService__get_list_of_items_from_yaml_file()
-                    bar.next()
-                    print(f'File "{item}s.yaml" was found.', end=' ///// ')
-                    try:
-                        service.get_list_of_names()
-                        bar.next()
-                        print(f'List function works with "{item}s.yaml" correct.',
-                        end=' ///// ')
-                        try:
-                            service.get_item_by_name(random.choice(service.get_list_of_names()))
-                            bar.next()
-                            print(f'Get function works with "{item}s.yaml" correct.',
-                            end=' ///// ')
-                        except:
-                            print(f'Get function DOES NOT works with "{item}s.yaml" correct.',
-                            end=' ///// ')
-                    except:
-                        print(f'List function DOES NOT works with "{item}s.yaml" correct.',
-                        end=' ///// ')
-                except:
-                    print(f'File "{item}s.yaml" was NOT found.', end=' ///// ')
+        pass
+
 
     # Формируем команду list для вывода списка Задач или Билдов
     if args['list']:

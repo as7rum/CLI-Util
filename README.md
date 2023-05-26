@@ -31,11 +31,8 @@
 
 - Программа поддерживает:
 
-1. Команду `test` для тестирования корректности работы программы.
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=~+app.py+test)](https://git.io/typing-svg)
 
-
-2. Команду `list` с аргументами `builds` и `tasks` для просмотра имен загруженных билдов и задач соответственно.
+1. Команду `list` с аргументами `builds` и `tasks` для просмотра имен загруженных билдов и задач соответственно.
 
 **Примеры:**
 
@@ -54,7 +51,7 @@ List of available tasks:
  * compile_shaders
  * pack_build
 ```
-3. Команду get с аргументами `build` <build_name> и `task` <task_name> для получения детальной информации.
+2. Команду get с аргументами `build` <build_name> и `task` <task_name> для получения детальной информации.
 
 **Примеры:**
 
